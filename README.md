@@ -26,7 +26,6 @@ Ce projet a pour but de créer une image Docker pour un site web statique en uti
 
 ### Dockerfile
 
-```dockerfile
 FROM nginx
 RUN rm -r /usr/share/nginx/html
 COPY html /usr/share/nginx/
