@@ -79,6 +79,7 @@ http {
 }
 
 ### Configuration du Déploiement Kubernetes (deplyment.yaml):
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -100,6 +101,7 @@ spec:
             - containerPort: 80
 
 ### Configuration du Service Kubernetes (service.yaml)
+
 apiVersion: v1
 kind: Service
 metadata:
